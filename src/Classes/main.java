@@ -11,9 +11,12 @@ public class main {
 		MoodAnalyser analyser=new MoodAnalyser("Sad");
 		System.out.println(analyser.analyseMood());
 		
-		UC2 uc2 =new UC2();
+//		UC2 uc2 =new UC2();
+//		
+//		uc2.analyseMood(null);
 		
-		uc2.analyseMood(null);
+		UC3 uc3=new UC3();
+		System.out.println(uc3.analyseMood("i am sad"));
 		
 
 	}
