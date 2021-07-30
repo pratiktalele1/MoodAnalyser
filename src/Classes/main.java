@@ -6,6 +6,10 @@ public class main {
 		UC1 moodAnalyser = new UC1();
 		System.out.println(moodAnalyser.analyseMood("sad"));
 		System.out.println(moodAnalyser.analyseMood("happy"));
+		
+		//creating refector object
+		MoodAnalyser analyser=new MoodAnalyser("Sad");
+		System.out.println(analyser.analyseMood());
 
 	}
 }
